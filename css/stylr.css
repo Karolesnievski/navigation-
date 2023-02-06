@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 *,
@@ -21,6 +21,10 @@ body {
 
 .nav {
   text-decoration: none;
+}
+
+.nav .nav__list .nav__item {
+  list-style-type: none;
 }
 
 .nav .nav__list .nav__item a {
@@ -43,7 +47,7 @@ a:hover {
 }
 
 a:hover::before {
-  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #d81dd8), color-stop(78%, #6210fa));
-  background: linear-gradient(to right, #d81dd8 40%, #6210fa 78%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(43%, #d81dd8), color-stop(84%, #6210fa));
+  background: linear-gradient(to left, #d81dd8 43%, #6210fa 84%);
 }
 /*# sourceMappingURL=stylr.css.map */
